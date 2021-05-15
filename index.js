@@ -28,8 +28,8 @@ window.onload = (event) => {
     emailsInput2.addEmail();
   };
 
-  var btnGetEmailCount2 = document.getElementById('get-email-count-2');
-  btnGetEmailCount2.onclick = function () {
-    alert('Number of emails added: ' + emailsInput2.getEmailCount());
+  var btnReplaceEmails = document.getElementById('replace-emails');
+  btnReplaceEmails.onclick = function () {
+    emailsInput2.replaceEmails(['danish@gmail.com', 'mdanish@gmail.com']);
   };
 }

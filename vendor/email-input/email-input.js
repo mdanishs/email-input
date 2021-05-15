@@ -97,6 +97,20 @@ function EmailsInput(containerNode, options = {}) {
   this.getEmailCount = function () {
     return emails.length;
   }
+
+  this.getAllEmails = function () {
+    return emails;
+  }
+
+  this.replaceEmails = function (newEmails) {
+    emails.forEach(function (email) {
+      document.getElementById(email.id).remove();
+    });
+    newEmails.forEach(function (email) {
+      _addEmailChip(email);
+    });
+  }
+
   _initDomStructure();
 
   return this;
