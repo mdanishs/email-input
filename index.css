@@ -1,0 +1,41 @@
+@import './vendor/email-input/styles/styles.css';
+
+body {
+  font: 100% 'Open Sans', sans-serif;
+}
+
+.form-container {
+  border: 1px solid lightblue;
+  width: 50%;
+  background: #f8f8f7;
+}
+
+.sample-1 {
+  padding: 10px;
+}
+
+.sample-1 #emails-input {
+  background-color: white;
+  height: 50px;
+}
+
+
+.sample-2 #emails-input-2 {
+  height: 150px;
+}
+
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background: #4262ff;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+}

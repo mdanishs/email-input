@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap';
+.emails-input {
+  font: 100% "Open Sans", sans-serif;
+  height: 100%;
+  border: 1px solid #c3c2cf;
+  border-radius: 4px;
+  padding: 3px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.emails-input .chip-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.emails-input .chip-container .email-chip {
+  margin-right: 6px;
+  margin-top: 3px;
+}
+.emails-input .email-chip {
+  background-color: #6699ff33;
+  border-radius: 100px;
+  padding: 11px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.emails-input .email-chip .cross-button {
+  margin-left: 6px;
+  cursor: pointer;
+}
+.emails-input .text-input {
+  border: 0;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=styles.css.map */
