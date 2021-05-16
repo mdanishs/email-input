@@ -27,7 +27,8 @@ let emailsInput = new EmailsInput(containerNode, {
 
 ## Following public functions are available
 ### ```addEmail```
-Adds random email to the list
+Adds random email to the list.
+> This method requires refactoring, it adds a random email, rather it should take email as input and add that, the random generation should be out of this function.
 
 ### ```getEmailCount```
 Return integer indicating how many emails are in the list
